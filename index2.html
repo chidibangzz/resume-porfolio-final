@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--  reset button that gets rid of image bullet points-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset plug in to remove bullet point on picture -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://formspree.io/f/xnqobwae">
+
+</head>
+
+<body>
+
+
+
+    <section id="container">
+        <header>
+            <div id="logo">
+                <h2>Chidi Ekeke</h2>
+                <h4>Full Stack Developer</h4>
+            </div>
+            <!-- creating container for my links facebook etc -->
+            <div class="social-icons-container">
+                <span class="socials-text">
+                    <button class="pulse-button">
+                        <i class="fa fa-share"></i>
+                    </button>
+                </span>
+
+
+                <ul class="socialicons">
+                    <!-- in line below fa represents font the second fa represents facebook
+                    fa stands for font awesome, this is where i create my icons -->
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </header>
+
+
+
+        <section id="content">
+            <div id="profile">
+                <!-- about contains image of me in cheetah shirt -->
+                <!-- used 2 photos at first so that we could put background image -->
+                <div class="about">
+                    <div class="photo-inner">
+                        <ul>
+                            <li><img src="images/cheetahshirt.JPG" height="200" width="120" alt=></li>
+                        </ul>
+
+                    </div>
+                    <h1>Chidi Ekeke</h1>
+                    <h3> Full Stack Developer</h3>
+                    <!-- break line below -->
+                    <br>
+                    <p>
+                        Fullstack developer passsionate and ravenous
+                        for interacting with technology to display interactive
+                        and beautiful content.
+                    </p>
+                </div>
+
+                <ul class="personal-info">
+                    <li><label>Name</label><span>Chidi Ekeke</span></li>
+
+
+
+                    <li><label>birth</label><span>June 12, 1993 </span></li>
+
+
+
+                    <li><label>Email</label><span class="word-wrap">tylerhero377@gmail.com</span></li>
+
+
+
+                    <li><label>Social</label><span><a class= "linkedin" href="https://www.linkedin.com/feed/">linkedin</a></span></li>
+
+
+                    
+                    <li><label>Web</label><span class="word-wrap"><a class="github" href="https://github.com/">github</a></span></li>
+                </ul>
+
+            </div>
+
+
+
+            <nav class="menu">
+                <ul class="tabs">
+
+
+                    <li class="tmenu">
+                        <a href="#profile" class="tab-profile active">
+                            <i><i class="fa fa-user"></i></i>
+                            PROFILE
+                        </a>
+                    </li>
+
+                    <li class="tmenu">
+                        <a href="#resume">
+                            <i><i class="fa fa-wpexplorer"></i></i>
+                            RESUME
+                        </a>
+                    </li>
+
+                    <li class="tmenu">
+                        <a href="#portfolio">
+                            <i><i class="fa fa-eercast"></i></i>
+                            PORTFOLIO
+                        </a>
+
+                    </li>
+
+                    <li class="tmenu">
+                        <a href="#contact">
+                            <i><i class="fa fa-telegram"></i></i>
+                            CONTACT
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+            <section id="resume">
+
+                <h1 class=resume-d>
+               <a href="software-develop.pdf">Click to retrieve PDF of my resume</a>
+            </h1>
+               <img class="resume-pic" src="images/pdf.jpg" width="350" height="350S" alt="resuming">
+
+
+            </section>
+
+
+
+            <section id="portfolio">
+                
+                <section class="gallery">
+
+
+                    <div class="section-title">
+                        <h6>recent</h6>
+                        <h1>portfolio Projects</h1>
+                    </div>
+
+
+                    
+                        
+                            <div class="apps">
+                                <li class="screenshots"><a class="screen" href="https://github.com/brantleymorris/Covid_Hotel_Booking/blob/main/README.md"><img
+                                            src="images/covid-counter.png" alt="code page" width="320" height="240px" /></a>
+                                <div class="caption">
+                                <h5>COVID TRACKER</h5>
+                                <figcaption>
+                                    Travel safe and luxiours with my hotel booking and Covid tracker
+                                    app by searching the city you want to travel too
+                                </figcaption>
+                                </div>
+                                </apps>
+                            </li>
+                            </div>
+                       
+                    
+
+                                
+                            <div class="apps">
+                                <li class="screenshots"><a class="screen" href="https://github.com/chidibangzz/homework6/blob/master/README.md"><img
+                                            src="images/weather-api.png" alt="finger" height="240" width="320" /></a>
+                                <div class="caption">
+                                <h5>Weather the Storm</h5>
+                                <figcaption>
+                                    Search a city and find and out the temperature, weather,
+                                    ux index and future forecast
+                                </figcaption>
+                                </div>
+                            </li>
+                            </div>
+                        
+
+                    
+                            <div class="apps">
+                                <li class="screenshots"><a class="screen" href="https://github.com/chidibangzz/project5/blob/main/README.md"><img
+                                            src="images/calender.png" width="320" height="240" /></a>
+                                <div class="caption">
+                                <h5>
+                                    Stay Organized
+                                </h5>
+                                <figcaption>
+                                    Save future events on my dynamic calender which uses real
+                                    time to display future times in green and past times in red
+                                </figcaption>
+                            </div>
+                            </li>
+                            </div>
+                     
+
+                            <div class="apps">
+                                <li class="screenshots"><a class="screen" href="https://github.com/chidibangzz/Project4/blob/main/README.md"><img
+                                            src="images/nfl-questions.png" height="240" width="320" /></a>
+                                <div class="caption">
+                                <h5>Nfl Quiz</h5>
+                                <figcaption>
+                                    Test your Nfl knowlege and answer the questions within the
+                                    given time but be careful because each time you get a question
+                                    wrong more time is deducted
+                                </figcaption>
+                            </div>
+                            </li>
+                            </div>
+                            
+                    
+                </section>
+
+            </section>
+
+
+
+
+
+            <section id="contact">
+                
+               <h2 class=contact-title>
+
+               <form
+               action="https://formspree.io/f/xnqobwae"
+               method="POST"
+             >
+               <label class="text-me">
+                 Your email:
+                 <input type="text" name="_replyto">
+               </label>
+               <label>
+                 Your message:
+                 <textarea name="message"></textarea>
+               </label>
+             
+               <!-- your other form fields go here -->
+             
+               <button type="submit">Send</button>
+             </form>
+
+
+            </h2>
+            </section>
+
+
+
+
+
+
+        </section>
+
+
+
+
+        <footer>
+            <div class="copyright">Copyright &copy; 2020 Chidi Ekeke</div>
+        </footer>
+
+
+
+    </section>
+
+    <script src=https://code.jquery.com/jquery-3.5.1.js></script>
+    <script src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js></script>
+    <script src="javascript2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+</body>
+
+</html>
