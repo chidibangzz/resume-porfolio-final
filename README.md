@@ -35,6 +35,8 @@ https://www.youtube.com/watch?v=AJjGCzrFz3Y&ab_channel=JimFahadDigital
 https://chidibangzz.github.io/resume-porfolio-final/.
 
 
+https://github.com/chidibangzz/resume-porfolio-final
+
 ## License
 Javascript, Css, Html, Jquery
 
