@@ -15,7 +15,7 @@ Bootstrap
 - [Electron](https://electron.atom.io)
 
 ## Features
-What makes your project stand out?
+Boucing animation and logo design
 
 
 ## How to use?
@@ -31,7 +31,9 @@ Please feel free contritbute to my project by contacting me  A [contributing gui
 Jim fahad Digital
 https://www.youtube.com/watch?v=AJjGCzrFz3Y&ab_channel=JimFahadDigital
 
-#### Anything else that seems useful
+#### Links to project
+https://chidibangzz.github.io/resume-porfolio-final/.
+
 
 ## License
 Javascript, Css, Html, Jquery
